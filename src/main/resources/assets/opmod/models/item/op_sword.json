@@ -1,0 +1,7 @@
+{
+  "parent": "opmod:custom/opsword",
+  "textures": {
+    "0": "opmod:blocks/op_sword",
+    "particle": "opmod:items/op_sword_img"
+  }
+}

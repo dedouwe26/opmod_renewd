@@ -1,0 +1,48 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OpItems",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_items"
+    },
+    {
+      "name": "OpSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_sword"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabop_items": "Op Items",
+      "item.opmod.op_sword": "Op Sword"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "opmod",
+    "modName": "Op Mod Renewd",
+    "version": "1.0.0",
+    "author": "lucwe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "rxs.dedouwe.mcmods.opmod_renewd",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
