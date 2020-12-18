@@ -32,8 +32,8 @@
     "modid": "opmod",
     "modName": "Op Mod Renewd",
     "version": "1.0.0",
-    "author": "lucwe, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "de_douwe",
+    "websiteURL": "https://dedouwe.nl",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -41,6 +41,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "This is the mod with OpTools. The previous version cant be downloaded. This mod is for my friends.",
     "modElementsPackage": "rxs.dedouwe.mcmods.opmod_renewd",
     "lockBaseModFiles": false
   },

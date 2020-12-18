@@ -5,9 +5,9 @@ loaderVersion="[31,)"
 modId="opmod"
 version="1.0.0"
 displayName="Op Mod Renewd"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="lucwe, MCreator"
+credits="This is the mod with OpTools. The previous version cant be downloaded. This mod is for my friends."
+displayURL="https://dedouwe.nl"
+authors="de_douwe"
 
 [[dependencies.opmod]]
     modId="minecraft"
