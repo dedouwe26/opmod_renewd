@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.END_CRYSTAL"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Items.ENCHANTED_BOOK"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UltraMagicCern"
+    },
+    "name": "ultra_magic_cern_recipe",
+    "namespace": "mod"
+  }
+}

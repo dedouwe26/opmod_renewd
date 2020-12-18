@@ -35,6 +35,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "OpswordRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opsword_recipe"
+    },
+    {
+      "name": "MagicStick",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_stick"
+    },
+    {
+      "name": "UltraMagicCern",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_magic_cern"
+    },
+    {
+      "name": "UltraMagicCernRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_magic_cern_recipe"
     }
   ],
   "variable_elements": [],
@@ -42,7 +78,9 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabop_items": "Op Items",
-      "item.opmod.op_sword": "Op Sword"
+      "item.opmod.magic_stick": "Magic Stick",
+      "item.opmod.op_sword": "Op Sword",
+      "item.opmod.ultra_magic_cern": "Ultra Magic Cern"
     }
   },
   "workspaceSettings": {

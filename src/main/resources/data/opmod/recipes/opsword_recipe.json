@@ -1,0 +1,30 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "6": {
+      "item": "opmod:magic_stick"
+    },
+    "7": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "opmod:op_sword",
+    "count": 1
+  }
+}

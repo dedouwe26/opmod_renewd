@@ -26,5 +26,6 @@ public class OpSwordItemIsCraftedsmeltedProcedure extends OpmodModElements.ModEl
 		((itemstack)).addEnchantment(Enchantments.THORNS, (int) 1000000);
 		((itemstack)).addEnchantment(Enchantments.EFFICIENCY, (int) 1000000);
 		((itemstack)).addEnchantment(Enchantments.LOOTING, (int) 1000000);
+		((itemstack)).addEnchantment(Enchantments.SHARPNESS, (int) 1000000);
 	}
 }

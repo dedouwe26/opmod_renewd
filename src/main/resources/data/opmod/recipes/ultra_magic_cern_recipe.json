@@ -1,0 +1,42 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "minecraft:ender_eye"
+    },
+    "2": {
+      "item": "minecraft:emerald_block"
+    },
+    "3": {
+      "item": "minecraft:end_crystal"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:end_crystal"
+    },
+    "6": {
+      "item": "minecraft:emerald_block"
+    },
+    "7": {
+      "item": "minecraft:enchanted_book"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "opmod:ultra_magic_cern",
+    "count": 1
+  }
+}
