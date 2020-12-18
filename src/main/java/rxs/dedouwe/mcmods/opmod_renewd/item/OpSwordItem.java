@@ -5,9 +5,12 @@ import rxs.dedouwe.mcmods.opmod_renewd.itemgroup.OpItemsItemGroup;
 import rxs.dedouwe.mcmods.opmod_renewd.OpmodModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -46,6 +49,11 @@ public class OpSwordItem extends OpmodModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(OpItemsItemGroup.tab)) {
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("op_sword"));
 	}
 }

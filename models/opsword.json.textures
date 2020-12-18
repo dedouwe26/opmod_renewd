@@ -2,7 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "op_sword"
+        "0": "gold_block",
+        "1": "op_sword",
+        "missing": ""
       },
       "name": "default"
     }
