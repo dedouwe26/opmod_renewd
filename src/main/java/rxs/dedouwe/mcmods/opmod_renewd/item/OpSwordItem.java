@@ -1,6 +1,7 @@
 
 package rxs.dedouwe.mcmods.opmod_renewd.item;
 
+import rxs.dedouwe.mcmods.opmod_renewd.procedures.OpSwordItemIsCraftedsmeltedProcedure;
 import rxs.dedouwe.mcmods.opmod_renewd.itemgroup.OpItemsItemGroup;
 import rxs.dedouwe.mcmods.opmod_renewd.OpmodModElements;
 
@@ -8,11 +9,17 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.Blocks;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @OpmodModElements.ModElement.Tag
 public class OpSwordItem extends OpmodModElements.ModElement {
@@ -26,29 +33,52 @@ public class OpSwordItem extends OpmodModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 0;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 128000f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 127998f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 128000;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 128000;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(Blocks.AIR, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(OpItemsItemGroup.tab)) {
+		}, 3, -3.9f, new Item.Properties().group(OpItemsItemGroup.tab)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				return new ItemStack(this);
+			}
+
+			@Override
+			public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+				super.onCreated(itemstack, world, entity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("itemstack", itemstack);
+					OpSwordItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
+				}
+			}
+
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

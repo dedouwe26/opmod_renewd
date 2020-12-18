@@ -18,6 +18,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "op_sword"
+    },
+    {
+      "name": "OpSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_sword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

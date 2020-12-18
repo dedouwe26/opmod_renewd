@@ -11,16 +11,23 @@
       "value": "CUSTOM:OpItems"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 0.1,
+    "enchantability": 128000,
+    "damageVsEntity": 128000.0,
+    "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "repairItems": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "OpSwordItemIsCraftedsmelted"
+    }
   }
 }
