@@ -1,0 +1,26 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "2": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "3": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "5": {
+      "item": "opmod:ultra_magic_cern"
+    }
+  },
+  "result": {
+    "item": "opmod:op_armor_armor_boots",
+    "count": 1
+  }
+}

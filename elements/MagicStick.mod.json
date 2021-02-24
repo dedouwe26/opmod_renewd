@@ -8,7 +8,7 @@
     "name": "Magic Stick",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:OpItems"
     },
     "stackSize": 64,
     "enchantability": 0,

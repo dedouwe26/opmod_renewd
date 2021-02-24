@@ -1,0 +1,39 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "2": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "3": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "4": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "5": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "6": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "7": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "8": {
+      "item": "opmod:ultra_magic_cern"
+    }
+  },
+  "result": {
+    "item": "opmod:op_armor_armor_chestplate",
+    "count": 1
+  }
+}

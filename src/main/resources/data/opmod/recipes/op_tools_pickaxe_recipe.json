@@ -1,0 +1,30 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "1": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "2": {
+      "item": "opmod:ultra_magic_cern"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "opmod:op_tools_pickaxe",
+    "count": 1
+  }
+}

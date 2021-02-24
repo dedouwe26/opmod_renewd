@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "optools_shovel",
+    "customModelName": "Normal",
+    "name": "OpTools Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:OpItems"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 128000,
+    "efficiency": 128000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 128000,
+    "damageVsEntity": 20.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UltraMagicCern"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

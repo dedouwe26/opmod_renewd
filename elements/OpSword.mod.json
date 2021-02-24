@@ -13,17 +13,13 @@
     "toolType": "Sword",
     "harvestLevel": 128000,
     "efficiency": 128000.0,
-    "attackSpeed": 0.1,
+    "attackSpeed": 85.0,
     "enchantability": 128000,
     "damageVsEntity": 128000.0,
     "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": true,
-    "repairItems": [
-      {
-        "value": "Blocks.AIR"
-      }
-    ],
+    "repairItems": [],
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "onCrafted": {

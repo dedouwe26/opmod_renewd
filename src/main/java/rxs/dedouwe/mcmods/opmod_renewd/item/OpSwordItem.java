@@ -16,7 +16,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.Blocks;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -53,9 +52,9 @@ public class OpSwordItem extends OpmodModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Blocks.AIR, (int) (1)));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -3.9f, new Item.Properties().group(OpItemsItemGroup.tab)) {
+		}, 3, 81f, new Item.Properties().group(OpItemsItemGroup.tab)) {
 			@Override
 			public boolean hasContainerItem() {
 				return true;

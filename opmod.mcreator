@@ -71,16 +71,241 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ultra_magic_cern_recipe"
+    },
+    {
+      "name": "TntThrower",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_thrower"
+    },
+    {
+      "name": "XBindingOnKeyPressed",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_binding_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XBinding",
+      "type": "keybind",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_binding"
+    },
+    {
+      "name": "TntThrowerItemInHandTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_thrower_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TntThrowerItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_thrower_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpArmorArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OpArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "OpArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_armor_armor_body_recipe"
+    },
+    {
+      "name": "OpArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "OpArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_armor_armor_boots_recipe"
+    },
+    {
+      "name": "OpToolsPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_pickaxe"
+    },
+    {
+      "name": "OpToolsAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_axe"
+    },
+    {
+      "name": "OpToolsShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_shovel"
+    },
+    {
+      "name": "OpToolsHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_hoe"
+    },
+    {
+      "name": "OpToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_pickaxe_recipe"
+    },
+    {
+      "name": "OpToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_axe_recipe"
+    },
+    {
+      "name": "OpToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_shovel_recipe"
+    },
+    {
+      "name": "OpToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_tools_hoe_recipe"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Tnt_drop",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "itemGroup.tabop_items": "Op Items",
       "item.opmod.magic_stick": "Magic Stick",
+      "key.mcreator.x_binding": "Dropping Tnt For tnt thrower",
+      "item.opmod.ultra_magic_cern": "Ultra Magic Cern",
+      "item.opmod.op_armor_armor_helmet": "OpArmor Helmet",
+      "item.opmod.op_armor_armor_leggings": "OpArmor Leggings",
+      "item.opmod.op_tools_hoe": "OpTools Hoe",
+      "item.opmod.op_tools_pickaxe": "OpTools Pickaxe",
+      "item.opmod.op_tools_shovel": "OpTools Shovel",
       "item.opmod.op_sword": "Op Sword",
-      "item.opmod.ultra_magic_cern": "Ultra Magic Cern"
+      "item.opmod.tnt_thrower": "Tnt Thrower",
+      "item.opmod.op_armor_armor_chestplate": "OpArmor Chestplate",
+      "item.opmod.op_tools_axe": "OpTools Axe",
+      "item.opmod.op_armor_armor_boots": "OpArmor Boots"
     }
   },
   "workspaceSettings": {
