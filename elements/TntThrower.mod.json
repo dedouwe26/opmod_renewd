@@ -28,10 +28,10 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 4,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "TntThrowerItemInInventoryTick"
+    "onRightClickedInAir": {
+      "name": "TntThrowerItemInHandTick"
     },
-    "onItemInUseTick": {
+    "onRightClickedOnBlock": {
       "name": "TntThrowerItemInHandTick"
     }
   }

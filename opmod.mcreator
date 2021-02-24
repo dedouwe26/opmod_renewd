@@ -141,23 +141,6 @@
       }
     },
     {
-      "name": "TntThrowerItemInInventoryTick",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tnt_thrower_item_in_inventory_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "OpArmorArmor",
       "type": "armor",
       "sortid": 12,

@@ -1,7 +1,6 @@
 package rxs.dedouwe.mcmods.opmod_renewd.procedures;
 
 import rxs.dedouwe.mcmods.opmod_renewd.item.TntThrowerItem;
-import rxs.dedouwe.mcmods.opmod_renewd.OpmodModVariables;
 import rxs.dedouwe.mcmods.opmod_renewd.OpmodModElements;
 
 import net.minecraft.world.World;
@@ -57,17 +56,8 @@ public class TntThrowerItemInHandTickProcedure extends OpmodModElements.ModEleme
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((((entity.getCapability(OpmodModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new OpmodModVariables.PlayerVariables())).Tnt_drop) == (true))
-				&& (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(TntThrowerItem.block, (int) (1)).getItem()))) {
-			{
-				boolean _setval = (boolean) (false);
-				entity.getCapability(OpmodModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.Tnt_drop = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
+		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(TntThrowerItem.block, (int) (1)).getItem())) {
 			if (world instanceof World && !world.getWorld().isRemote) {
 				Entity entityToSpawn = new TNTEntity(EntityType.TNT, world.getWorld());
 				entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
@@ -83,17 +73,8 @@ public class TntThrowerItemInHandTickProcedure extends OpmodModElements.ModEleme
 					_ist.setDamage(0);
 				}
 			}
-		} else if (((((entity.getCapability(OpmodModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new OpmodModVariables.PlayerVariables())).Tnt_drop) == (true))
-				&& (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(TntThrowerItem.block, (int) (1)).getItem()))) {
-			{
-				boolean _setval = (boolean) (false);
-				entity.getCapability(OpmodModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.Tnt_drop = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
+		} else if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(TntThrowerItem.block, (int) (1)).getItem())) {
 			if (world instanceof World && !world.getWorld().isRemote) {
 				Entity entityToSpawn = new TNTEntity(EntityType.TNT, world.getWorld());
 				entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
