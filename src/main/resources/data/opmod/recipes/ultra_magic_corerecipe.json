@@ -1,0 +1,30 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "opmod:magic_item"
+    },
+    "3": {
+      "item": "opmod:magic_item"
+    },
+    "4": {
+      "item": "opmod:ultra_item"
+    },
+    "5": {
+      "item": "opmod:magic_item"
+    },
+    "7": {
+      "item": "opmod:magic_item"
+    }
+  },
+  "result": {
+    "item": "opmod:ultra_magic_core",
+    "count": 1
+  }
+}

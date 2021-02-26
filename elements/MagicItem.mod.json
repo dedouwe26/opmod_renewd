@@ -1,0 +1,32 @@
+{
+  "_fv": 13,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "magic_ore",
+    "customModelName": "Normal",
+    "name": "Magic Item",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:OpItems"
+    },
+    "stackSize": 64,
+    "enchantability": 10,
+    "useDuration": 0,
+    "toolType": 0.9,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

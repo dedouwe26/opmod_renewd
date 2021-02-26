@@ -1,0 +1,36 @@
+{
+  "group": "opmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "opmod:magic_item"
+    },
+    "3": {
+      "item": "opmod:magic_item"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "opmod:magic_item"
+    },
+    "6": {
+      "item": "opmod:ultra_magic_core"
+    },
+    "7": {
+      "item": "opmod:magic_item"
+    },
+    "8": {
+      "item": "opmod:ultra_magic_core"
+    }
+  },
+  "result": {
+    "item": "opmod:magic_stick",
+    "count": 2
+  }
+}

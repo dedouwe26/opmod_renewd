@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "opmod:block/magic_ore"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "opmod:blocks/magic_ore",
+    "up": "opmod:blocks/magic_ore",
+    "north": "opmod:blocks/magic_ore",
+    "east": "opmod:blocks/magic_ore",
+    "south": "opmod:blocks/magic_ore",
+    "west": "opmod:blocks/magic_ore",
+    "particle": "opmod:blocks/magic_ore"
+  }
+}

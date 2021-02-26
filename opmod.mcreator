@@ -82,32 +82,6 @@
       "registry_name": "tnt_thrower"
     },
     {
-      "name": "XBindingOnKeyPressed",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "x_binding_on_key_pressed",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "XBinding",
-      "type": "keybind",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "x_binding"
-    },
-    {
       "name": "TntThrowerItemInHandTick",
       "type": "procedure",
       "sortid": 10,
@@ -262,6 +236,69 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "op_tools_hoe_recipe"
+    },
+    {
+      "name": "MagicOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_ore"
+    },
+    {
+      "name": "UltraOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_ore"
+    },
+    {
+      "name": "MagicItem",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_item"
+    },
+    {
+      "name": "UltraItem",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_item"
+    },
+    {
+      "name": "UltraMagicCore",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_magic_core"
+    },
+    {
+      "name": "UltraMagicCorerecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultra_magic_corerecipe"
+    },
+    {
+      "name": "MagicStickRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_stick_recipe"
     }
   ],
   "variable_elements": [
@@ -275,19 +312,23 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabop_items": "Op Items",
       "item.opmod.magic_stick": "Magic Stick",
-      "key.mcreator.x_binding": "Dropping Tnt For tnt thrower",
+      "itemGroup.tabop_items": "Op Items",
       "item.opmod.ultra_magic_cern": "Ultra Magic Cern",
       "item.opmod.op_armor_armor_helmet": "OpArmor Helmet",
       "item.opmod.op_armor_armor_leggings": "OpArmor Leggings",
       "item.opmod.op_tools_hoe": "OpTools Hoe",
       "item.opmod.op_tools_pickaxe": "OpTools Pickaxe",
+      "item.opmod.ultra_magic_core": "Ultra Magic Core",
       "item.opmod.op_tools_shovel": "OpTools Shovel",
+      "item.opmod.magic_item": "Magic Item",
       "item.opmod.op_sword": "Op Sword",
       "item.opmod.tnt_thrower": "Tnt Thrower",
       "item.opmod.op_armor_armor_chestplate": "OpArmor Chestplate",
+      "item.opmod.ultra_item": "Ultra Item",
       "item.opmod.op_tools_axe": "OpTools Axe",
+      "block.opmod.ultra_ore": "Ultra Ore",
+      "block.opmod.magic_ore": "Magic Ore",
       "item.opmod.op_armor_armor_boots": "OpArmor Boots"
     }
   },

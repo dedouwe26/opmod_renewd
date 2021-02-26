@@ -1,16 +1,20 @@
 {
-  "itemGroup.tabop_items": "Op Items",
   "item.opmod.magic_stick": "Magic Stick",
-  "key.mcreator.x_binding": "Dropping Tnt For tnt thrower",
+  "itemGroup.tabop_items": "Op Items",
   "item.opmod.ultra_magic_cern": "Ultra Magic Cern",
   "item.opmod.op_armor_armor_helmet": "OpArmor Helmet",
   "item.opmod.op_armor_armor_leggings": "OpArmor Leggings",
   "item.opmod.op_tools_hoe": "OpTools Hoe",
   "item.opmod.op_tools_pickaxe": "OpTools Pickaxe",
+  "item.opmod.ultra_magic_core": "Ultra Magic Core",
   "item.opmod.op_tools_shovel": "OpTools Shovel",
+  "item.opmod.magic_item": "Magic Item",
   "item.opmod.op_sword": "Op Sword",
   "item.opmod.tnt_thrower": "Tnt Thrower",
   "item.opmod.op_armor_armor_chestplate": "OpArmor Chestplate",
+  "item.opmod.ultra_item": "Ultra Item",
   "item.opmod.op_tools_axe": "OpTools Axe",
+  "block.opmod.ultra_ore": "Ultra Ore",
+  "block.opmod.magic_ore": "Magic Ore",
   "item.opmod.op_armor_armor_boots": "OpArmor Boots"
 }

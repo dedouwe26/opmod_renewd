@@ -17,13 +17,13 @@
       "item": "minecraft:emerald_block"
     },
     "3": {
-      "item": "minecraft:end_crystal"
-    },
-    "4": {
       "item": "minecraft:nether_star"
     },
+    "4": {
+      "item": "opmod:ultra_magic_core"
+    },
     "5": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:nether_star"
     },
     "6": {
       "item": "minecraft:emerald_block"

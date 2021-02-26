@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": ""
       },
       {
-        "value": "Items.ENDER_EYE"
+        "value": "CUSTOM:MagicItem"
       },
       {
-        "value": "Blocks.EMERALD_BLOCK"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:MagicItem"
       },
       {
-        "value": "CUSTOM:UltraMagicCore"
+        "value": "CUSTOM:UltraItem"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:MagicItem"
       },
       {
-        "value": "Blocks.EMERALD_BLOCK"
+        "value": ""
       },
       {
-        "value": "Items.ENCHANTED_BOOK"
+        "value": "CUSTOM:MagicItem"
       },
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:UltraMagicCern"
+      "value": "CUSTOM:UltraMagicCore"
     },
-    "name": "ultra_magic_cern_recipe",
+    "name": "ultra_magic_corerecipe",
     "namespace": "mod"
   }
 }
